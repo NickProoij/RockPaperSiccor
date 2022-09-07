@@ -1,0 +1,11 @@
+#Verloren {
+    color: red;
+}
+
+#Gewonnen {
+    color: green;
+}
+
+#Gelijkspel {
+    color: rgb(74, 174, 255);
+}
