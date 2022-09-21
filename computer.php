@@ -7,10 +7,6 @@ function spelen($speler_1, $speler_2)
     // 2 = schaar
     $gewonnen = array(1, 2, 0);
 
-
-    // if speler_1 is niet speler_2 kijk dan of speler_1 0 2 of 1 in de array is en kijk dan of je 1 0 of 2 returned
-    // Waar je de functie aanroept kijk je of return 0, 1, 2 is en dan print je steen, papier of schaar
-
     return ($speler_1 != $speler_2) ? ($gewonnen[$speler_1] == $speler_2) ? 1 : 0 : 2;
 }
 ?>
